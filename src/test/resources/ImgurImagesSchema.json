@@ -1,0 +1,382 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "datetime": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            },
+            "animated": {
+              "type": "boolean"
+            },
+            "width": {
+              "type": "integer"
+            },
+            "height": {
+              "type": "integer"
+            },
+            "size": {
+              "type": "integer"
+            },
+            "views": {
+              "type": "integer"
+            },
+            "bandwidth": {
+              "type": "integer"
+            },
+            "vote": {
+              "type": "null"
+            },
+            "favorite": {
+              "type": "boolean"
+            },
+            "nsfw": {
+              "type": "null"
+            },
+            "section": {
+              "type": "null"
+            },
+            "account_url": {
+              "type": "string"
+            },
+            "account_id": {
+              "type": "integer"
+            },
+            "is_ad": {
+              "type": "boolean"
+            },
+            "in_most_viral": {
+              "type": "boolean"
+            },
+            "has_sound": {
+              "type": "boolean"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "ad_type": {
+              "type": "integer"
+            },
+            "ad_url": {
+              "type": "string"
+            },
+            "edited": {
+              "type": "string"
+            },
+            "in_gallery": {
+              "type": "boolean"
+            },
+            "deletehash": {
+              "type": "string"
+            },
+            "name": {
+              "type": "null"
+            },
+            "link": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "datetime",
+            "type",
+            "animated",
+            "width",
+            "height",
+            "size",
+            "views",
+            "bandwidth",
+            "vote",
+            "favorite",
+            "nsfw",
+            "section",
+            "account_url",
+            "account_id",
+            "is_ad",
+            "in_most_viral",
+            "has_sound",
+            "tags",
+            "ad_type",
+            "ad_url",
+            "edited",
+            "in_gallery",
+            "deletehash",
+            "name",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "datetime": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            },
+            "animated": {
+              "type": "boolean"
+            },
+            "width": {
+              "type": "integer"
+            },
+            "height": {
+              "type": "integer"
+            },
+            "size": {
+              "type": "integer"
+            },
+            "views": {
+              "type": "integer"
+            },
+            "bandwidth": {
+              "type": "integer"
+            },
+            "vote": {
+              "type": "null"
+            },
+            "favorite": {
+              "type": "boolean"
+            },
+            "nsfw": {
+              "type": "null"
+            },
+            "section": {
+              "type": "null"
+            },
+            "account_url": {
+              "type": "string"
+            },
+            "account_id": {
+              "type": "integer"
+            },
+            "is_ad": {
+              "type": "boolean"
+            },
+            "in_most_viral": {
+              "type": "boolean"
+            },
+            "has_sound": {
+              "type": "boolean"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "ad_type": {
+              "type": "integer"
+            },
+            "ad_url": {
+              "type": "string"
+            },
+            "edited": {
+              "type": "string"
+            },
+            "in_gallery": {
+              "type": "boolean"
+            },
+            "deletehash": {
+              "type": "string"
+            },
+            "name": {
+              "type": "null"
+            },
+            "link": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "datetime",
+            "type",
+            "animated",
+            "width",
+            "height",
+            "size",
+            "views",
+            "bandwidth",
+            "vote",
+            "favorite",
+            "nsfw",
+            "section",
+            "account_url",
+            "account_id",
+            "is_ad",
+            "in_most_viral",
+            "has_sound",
+            "tags",
+            "ad_type",
+            "ad_url",
+            "edited",
+            "in_gallery",
+            "deletehash",
+            "name",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "datetime": {
+              "type": "integer"
+            },
+            "type": {
+              "type": "string"
+            },
+            "animated": {
+              "type": "boolean"
+            },
+            "width": {
+              "type": "integer"
+            },
+            "height": {
+              "type": "integer"
+            },
+            "size": {
+              "type": "integer"
+            },
+            "views": {
+              "type": "integer"
+            },
+            "bandwidth": {
+              "type": "integer"
+            },
+            "vote": {
+              "type": "null"
+            },
+            "favorite": {
+              "type": "boolean"
+            },
+            "nsfw": {
+              "type": "null"
+            },
+            "section": {
+              "type": "null"
+            },
+            "account_url": {
+              "type": "string"
+            },
+            "account_id": {
+              "type": "integer"
+            },
+            "is_ad": {
+              "type": "boolean"
+            },
+            "in_most_viral": {
+              "type": "boolean"
+            },
+            "has_sound": {
+              "type": "boolean"
+            },
+            "tags": {
+              "type": "array",
+              "items": {}
+            },
+            "ad_type": {
+              "type": "integer"
+            },
+            "ad_url": {
+              "type": "string"
+            },
+            "edited": {
+              "type": "string"
+            },
+            "in_gallery": {
+              "type": "boolean"
+            },
+            "deletehash": {
+              "type": "string"
+            },
+            "name": {
+              "type": "null"
+            },
+            "link": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "datetime",
+            "type",
+            "animated",
+            "width",
+            "height",
+            "size",
+            "views",
+            "bandwidth",
+            "vote",
+            "favorite",
+            "nsfw",
+            "section",
+            "account_url",
+            "account_id",
+            "is_ad",
+            "in_most_viral",
+            "has_sound",
+            "tags",
+            "ad_type",
+            "ad_url",
+            "edited",
+            "in_gallery",
+            "deletehash",
+            "name",
+            "link"
+          ]
+        }
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "data",
+    "success",
+    "status"
+  ]
+}
